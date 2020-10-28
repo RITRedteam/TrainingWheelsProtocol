@@ -1,0 +1,11 @@
+---
+name: trainingwheels
+description: "All the modules for TrainingWheelsProtocol"
+loglevel: 1
+parse: true
+payloads:
+ - ../Titans/payloads/cron.sh
+ - ../Titans/payloads/bashrc.sh
+ - ../Titans/payloads/tools.sh
+ - ../Titans/payloads/users.sh
+ - ../Titans/payloads/manpage.sh

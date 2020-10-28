@@ -23,7 +23,6 @@ DESTROY() {
 
 INIT() {    
     LOG 1 "Standbye for TitanFall"
-    TRAP
 }
 
 FINISH() {

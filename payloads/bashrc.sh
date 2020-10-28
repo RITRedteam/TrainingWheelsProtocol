@@ -1,6 +1,7 @@
 # Adds easy to find hooks to bashrc files
 # DEPENDS: LOG
 
+# This is red teams ip space
 HIDE_IP="10.2.3"
 
 bashrc_hooks () {
